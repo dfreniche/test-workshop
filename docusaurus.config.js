@@ -4,7 +4,7 @@
 // Change here to customise config
 
 // Name of the Github Repo
-const workshopName = 'docusaurus-workshop';
+const workshopName = 'test-workshop';
 
 // Main page config
 const title = "Docusaurus2 Meta Workshop";
