@@ -1,0 +1,13 @@
+# 👩‍💻 Deploying the workshop
+
+## Building/testing it
+
+`npm start` builds a development version of the Docusaurus workshop. To build the production version locally we should use `npm run build` that also checks links. 
+
+It will create a `build` directory. This is a generated static version of the workshop we can host anywhere. This directory is ignored by git.
+
+The Search Box only works with a production build.
+
+## Github Actions
+
+In `./github/workflows` there's a Github action to automatically deploy this site in Github pages. You just need to push changes to `main` and everything should happen automagically.
